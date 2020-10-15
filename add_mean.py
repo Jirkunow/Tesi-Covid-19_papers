@@ -38,5 +38,5 @@ df_fst_cl = df_fst_cl.transpose()
 
 df_fst_cl.to_csv('mean.csv', index=False)
 
-df_fst_cl.append(dataset).head().to_csv('data_all_with_mean.csv', index=False)
+df_fst_cl.append(dataset).head().to_csv(csv/data_all_with_mean.csv', index=False)
 
